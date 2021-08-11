@@ -1,0 +1,111 @@
+.navigation{
+    height: 60px !important;
+}
+
+.navbar{
+    background-color: black;
+}
+
+.nav-link{
+    color: white !important;
+    padding-left:10px !important;
+    padding-right: 10px !important;
+}
+
+.navbar-brand{
+    color: white !important;
+    font-size: 40px !important;
+    font-weight: bold !important;
+}
+
+.navbar-collapse{
+    background-color: black !important;
+}
+
+.banner{
+    height: 750px;
+    background-image: url('https://pbs.twimg.com/media/Dd-6v8bXcAAjFfi.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.banner_content{
+   background-color: rgba(248, 245, 245, 0.808);
+   display: flex;
+   align-items: center;
+}
+
+.title{
+    text-align: center;
+}
+
+.brands{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.my-card{
+    width: 350px !important;
+    height: 700px !important;
+    margin-top: 30px !important;
+    background-color:tan !important;
+}
+
+.card-img-top{
+    height: 230px;
+}
+
+.banner-ad{
+    height: 800px;
+    background-image: url('https://media.istockphoto.com/photos/blurred-image-background-with-clothing-store-background-picture-id1146643283?k=6&m=1146643283&s=170667a&w=0&h=iqFvJ1XP2jHF8_hdJOirUXjtvRBbxHccwjxcjkXFLoo=');
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ad-content{
+    background-color: rgba(44, 39, 39, 0.479);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ad_title{
+    color: white;
+    margin-bottom: 30px;
+}
+
+.specialities-bg{
+    background-color:white;
+}
+
+.specialities{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.my-cards{
+    background-color: tan !important;
+    width: 360px !important;
+}
+
+
+/* css for mobile  */
+@media (max-width:1200px) {
+    .banner-ad{
+        height: 500px;
+    }
+    .banner{
+        height: 600px;
+    } 
+    .my-card{
+        margin-bottom: 20px;
+    } 
+    .my-cards{
+        margin-bottom: 20px;
+    }  
+}
