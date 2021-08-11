@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Intro</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <!--Layouting-->
+
+    <!--container class for 70% width-->
+    <!--container fluid class for full width -->
+    <div class="container my-container">
+
+    <!--normally everything goes vertical-->
+    <!--row manages everything in inline alignment-->
+    <!--in bootstrap every width is divided into 12 columns and arranged as column and gutter(space between two columns)-->
+        <div class="row my-row justify-content-between align-items-center">
+            <div class="block col-3">
+               Block1
+            </div>
+            <!-- offset-n means margin-left -->
+            <div class="block col-3">
+               Block2
+            </div>
+            <div class="block col-3">
+                Block3
+            </div>
+            <!--to make site responsive without using extra css or media queries-->
+            <!-- col-xs (extra small and larger)-->
+            <!-- col-sm (small and larger)-->
+            <!-- col-md (medium and larger)-->
+            <!-- col-lg (large and larger)-->
+            <!-- col-xl (extra large)-->
+            <!--<div class="block offset-1 col-sm-12 col-md-8 col-lg-10">
+                Block4
+            </div>-->
+
+            <!-- justify-content (aligns content horizontally)-->
+            <!-- justify-content-center (aligns content in the center)-->
+            <!-- justify-content-around (gives spaces between and around the content)-->
+            <!-- justify-content-around (gives spaces between the content)-->
+            
+            <!-- align-items (aligns content vertically)-->
+            <!-- align-items-center (aligns content in the center)-->
+            <!-- align-items-start (aligns content in the start of the parent)-->
+            <!-- align-items-end (aligns content in the end of the parent)-->
+        </div>
+    </div>
+   
+</body>
+</html>
